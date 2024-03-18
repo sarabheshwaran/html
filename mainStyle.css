@@ -255,7 +255,6 @@ p {
 
 
 .cards {
-	padding-top: 50px;
 	overflow: auto;
 	height: 700px;
 }
@@ -516,9 +515,31 @@ label {
     background-color: #dff1d9;
     height: fit-content;
     display: flex;
+    flex-direction: column;
     align-content: center;
+    
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
 .balance-div p,h4{
     color: #316952;
+}
+
+.ok-button{
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ok-button .button{
+    background-color: #f89511;
 }
