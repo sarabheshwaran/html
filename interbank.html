@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="mainStyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+</head>
+
+
+<body>
+    <header class="main-header"><img class="logo" src="logo.png">
+        <h1 class="title-logo">UUB </h1>
+    </header>
+    <nav class="horizontal-nav">
+        <div class="options">
+            <div class="option">
+                <a href="profile.html">Profile
+
+                </a>
+            </div>
+            <div class="option">
+                <a href="accounts.html">Account Portal</a>
+            </div>
+            <div class="option">
+                <a href="interbank.html" class="selected">Transaction Portal</a>
+            </div>
+
+        </div>
+        <div class="logout">
+            <a href="index.html">Logout</a>
+        </div>
+    </nav>
+
+
+    <div class="body">
+        <div class="body-1">
+
+            <nav class="vertical-nav">
+                <div class="quick">
+                    <h3>Quick Links</h3><i class="fa-solid fa-chevron-right"></i>
+                </div>
+                <div class="links"><a href="interbank.html">Inter Bank Transfer</a></div>
+                <div class="links"><a href="intrabank.html">Intra Bank Transfer</a></div>
+                <div class="links"><a href="withdraw.html">Withdraw</a></div>
+                <div class="links"><a href="deposit.html">Deposit</a></div>
+            </nav>
+        </div>
+
+        <div class="body-2">
+            <div class="body-rest">
+
+                <h3>Transaction Portal</h3>
+            </div>
+            <div class="body-main">
+                <div class="body-header">
+
+                    <h3>Inter Bank Transfer</h3>
+                </div>
+                <div class="main-content">
+                    <div class="error-block">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                        <p>* this is an error message *</p>
+                    </div>
+                    <div class="transfer-form">
+                        <form action="login.html" method="GET">
+
+                            <div class="input-div">
+                                <div class="label-div">
+                                    <label for="senderAccount">Sender Account Number:</label>
+                                    <label for="amount">Amount:</label>
+                                    <label for="receiverIFSC">Receiver IFSC:</label>
+                                    <label for="receiverAccount">Receiver Account Number:</label>
+                                    <label for="password">Password:</label>
+
+                                </div>
+                                <div class="space-div">
+
+                                    <select id="senderAccount" name="senderAccount">
+                                        <option value="123456789">123456789</option>
+                                        <option value="987654321">987654321</option>
+                                        <!-- Add more options as needed -->
+                                    </select>
+                                    <input type="number" id="amount" name="amount">
+                                    <input type="text" id="receiverIFSC" name="receiverIFSC">
+                                    <input type="text" id="receiverAccount" name="receiverAccount">
+                                    <input type="password" id="password" name="password">
+
+                                </div>
+
+                            </div>
+                            <div class="submit-button">
+                                <input class="button" type="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
