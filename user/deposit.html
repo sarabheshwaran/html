@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="../mainStyle.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -13,30 +13,54 @@
 
 
 <body>
-    <header class="main-header"><img class="logo" src="logo.png">
+    <header>
+        <div class="main-header"><img class="logo" src="../logo.png">
         <h1 class="title-logo">UUB </h1>
+    </div>
+        <div class="logout">
+            
+            <a href="../index.html"><div class="icon">
+                <i class="fa-solid fa-power-off"></i></div>LOGOUT</a>
+        </div>
     </header>
     <nav class="horizontal-nav">
-        <div class="options">
+        <div class="options" >
             <div class="option">
-                <a href="profile.html">Profile
+                <a href="profile.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>Profile
 
                 </a>
             </div>
-            <div class="option">
-                <a href="accounts.html">Account Portal</a>
+            <div  class="option">
+
+                <a href="accounts.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    Account Portal
+                </a>
             </div>
-            <div class="option">
-                <a href="interbank.html" class="selected">Transaction Portal</a>
+            <div class="option selected">
+
+                <a href="interbank.html">
+                    <div class="icon">
+                        <i class="fa-solid fa-money-bill-transfer"></i>
+                     </div>Transaction portal
+                </a>
             </div>
 
         </div>
-        <div class="logout">
-            <a href="index.html">Logout</a>
-        </div>
+        
     </nav>
 
-
+    <div class="menu-bar">
+    <div class="name-card">
+        <h4>Welcome</h4>
+        <h3>Mr JHON DOE</h3>
+    </div>
+    </div>
     <div class="body">
         <div class="body-1">
 
@@ -59,7 +83,7 @@
             <div class="body-main">
                 <div class="body-header">
 
-                    <h3>Withdraw</h3>
+                    <h3>Deposit</h3>
                 </div>
                 <div class="main-content">
                     <div class="error-block">

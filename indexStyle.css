@@ -27,7 +27,7 @@ body {
 
 .button {
     display: inline-block;
-    background-color: #003366;
+    background-image: linear-gradient(to right,#bb395c,#482a69);
 
     height: fit-content;
     color: #fff;
@@ -37,12 +37,11 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     font-size: medium;
 }
 
 .button:hover {
-    background-color: #280071;
+    background-image: linear-gradient(to right,#482a69,#bb395c);
 }
 
 .logo {
